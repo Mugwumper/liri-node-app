@@ -11,10 +11,15 @@
     "url": "git+https://github.com/Mugwumper/liri-node-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thomas Lewis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mugwumper/liri-node-app/issues"
   },
-  "homepage": "https://github.com/Mugwumper/liri-node-app#readme"
+  "homepage": "https://github.com/Mugwumper/liri-node-app#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "inquirer": "^6.2.1",
+    "dotenv": "^8.0.0"
+  }
 }
