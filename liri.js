@@ -1,11 +1,31 @@
 require("dotenv").config();
 
+const LOG_DEBUG = 1;
+const LOG_WRITE = 2;
+
 var inquirer = require("inquirer");
 var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
 var axios = require("axios");
+var moment = require('moment');
 
-var log = console.log;
+var gDebug = true; // this serves as a master switch, try it out
+var LogOut = [];
+
+function log(msg, dest) {
+    if ((dest & LOG_WRITE) === LOG_WRITE) {
+        LogOut.push(msg);
+        // store the message in a list to write to file later
+    }
+
+    if ((dest & LOG_DEBUG) === LOG_DEBUG) {
+        if ( ! gDebug) {
+            return false;// stop now, this is a debug message and we are not debugging.
+        }
+    }
+
+    console.log(msg);
+}
 
 processCmd(); // entry point
 
@@ -32,6 +52,9 @@ function processCmd() {
             case "OMDB":
                 searchOMDB(searchStr);
                 break;
+            case "special":
+                searchUsingRandomTxt();
+                break;
             default:
                 log("unrecognized command - value: '" + APIchoice + "'");
                 break;
@@ -46,6 +69,7 @@ function cleanCmd(APIchoice) {// This attempts to take a string of almost anythi
     var isSpot = checkforSpot();
     var isBIT = checkforBIT();
     var isMovie = checkforMovie();
+    var isSpecial = checkforSpecial();
     //console.log(cmd);  
 
     // function checkforSpot() {
@@ -86,13 +110,18 @@ function cleanCmd(APIchoice) {// This attempts to take a string of almost anythi
         var list = ['movie', 'omdb', 'film'];
         return checkforItemInList(list);
     }
+
+    function checkforSpecial() {
+        var list = ['do-what-it-says'];
+        return checkforItemInList(list);
+    }
     function checkforItemInList(list) {
         var found = false;
         list.forEach(isInCommand);
         function isInCommand(item) {
-            //console.log("checking if " + item + " is in the string '" + cmd + "'");
+            //log("checking if " + item + " is in the string '" + cmd + "'", LOG_DEBUG);
             if (cmd.includes(item)) { // will not work in IE (should I care?)
-                //console.log(" - it IS in the string!");
+                //log(" - it IS in the string!", LOG_DEBUG);
                 foundCount++;
                 found = true;
             }
@@ -106,35 +135,26 @@ function cleanCmd(APIchoice) {// This attempts to take a string of almost anythi
             return false;
         case 1:
             if (isSpot) {
-                log("value found to be in the list for Spotify");
+                log(APIchoice.cmd + " determined to be used for Spotify", LOG_DEBUG);
                 APIchoice.cmd = "spot";
             }
             if (isBIT) {
-                log("value found to be in the list for Bands In Town");
+                log(APIchoice.cmd + " determined to be used for Bands In Town", LOG_DEBUG);
                 APIchoice.cmd = "BIT";
             }
             if (isMovie) {
-                log("value found to be in the list for OMDB");
+                log(APIchoice.cmd + " determined to be used for OMDB", LOG_DEBUG);
                 APIchoice.cmd = "OMDB";
+            }
+            if (isSpecial) {
+                log("will process random.txt file", LOG_DEBUGv);
+                APIchoice.cmd = 'special';
             }
             return true;
         default:
             log("unexpected condition - command resolved for more than one API.");
             return false;
     }
-
-    //console.log("value NOT found to be in the list for Spotify");
-
-    // var isMovies = false;
-    // var isBand = false;
-    // var list_movies = ['movie', 'film'];
-    // var list_band = ['concert', 'bands', 'venue'];
-
-    // if (cmd.includes("spot")) { // will not work in IE (should I care?)
-    //     return "spotify-this";
-    // }
-    // console.log("processing command:" + cmd);
-    // return cmd;
 }
 
 function doInquirer() {// currently only used for testing
@@ -156,6 +176,19 @@ function stuff(inquirerResponse) { // temp
 }
 
 function searchSpotify(searchStr) {
+
+    //     * This will show the following information about the song in your terminal/bash window
+
+    //     * Artist(s)
+
+    //     * The song's name
+
+    //     * A preview link of the song from Spotify
+
+    //     * The album that the song is from
+
+    //   * If no song is provided then your program will default to "The Sign" by Ace of Base.
+
     log("searching Spotify using search term: '" + searchStr + "'");
     var spotify = new Spotify({
         id: keys.spotify.id,
@@ -188,17 +221,23 @@ function searchSpotify(searchStr) {
 //npm i -g inspect-process
 
 function searchBIT(searchStr) {
-    log("searching Bands In Town using search term: '" + searchStr + "'");
+    log("searching Bands In Town using search term: '" + searchStr + "'", (LOG_DEBUG | LOG_WRITE));
     // Run the axios.get function...
     // The axios.get function takes in a URL and returns a promise (just like $.ajax)
     axios
         //.get("https://en.wikipedia.org/wiki/Kudos_(granola_bar)")
         .get("https://rest.bandsintown.com/artists/" + searchStr.replace(/ /g, "+") + "/events?app_id=" + keys.bandsintown)
-
         .then(function (response) {
             // If the axios was successful...
             // Then log the body from the site!
-                log(response.data);
+            for (var i = 0; i < 3; i++) {
+                var data = response.data[i];
+                log("#" + (i + 1));
+                log("Venue:     " + data.venue.name);
+                log("Location:  " + data.venue.city + ", " + data.venue.country);
+                var offer = data.offers[0];
+                log("Date:      " + moment(data.datetime, 'YYYY-MM-DD').format('MM/DD/YYYY') + " (" + offer.type + " " + offer.status + ")");
+            };
         })
         .catch(function (error) {
             if (error.response) {
@@ -219,8 +258,26 @@ function searchBIT(searchStr) {
         });
 }
 
-
 function searchOMDB(searchStr) {
+
+    //     * This will output the following information to your terminal/bash window:
+
+    //     ```
+    //       * Title of the movie.
+    //       * Year the movie came out.
+    //       * IMDB Rating of the movie.
+    //       * Rotten Tomatoes Rating of the movie.
+    //       * Country where the movie was produced.
+    //       * Language of the movie.
+    //       * Plot of the movie.
+    //       * Actors in the movie.
+    //     ```
+
+    //   * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+
+
+
+
     log("searching OMDB using search term: '" + searchStr + "'");
     // Run the axios.get function...
     // The axios.get function takes in a URL and returns a promise (just like $.ajax)
@@ -229,7 +286,7 @@ function searchOMDB(searchStr) {
         .then(function (response) {
             // If the axios was successful...
             // Then log the body from the site!
-                log(response.data);
+            log(response.data);
         })
         .catch(function (error) {
             if (error.response) {
@@ -250,97 +307,12 @@ function searchOMDB(searchStr) {
         });
 }
 
-///http://www.omdbapi.com/?i=tt3896198&apikey=ab4826cd
+function searchSpecial() {
 
+    // * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
+    // * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
+    // * Edit the text in random.txt to test out the feature for movie-this and concert-this.
 
-
-function concertThis() {
-    if (!input) {
-        log("\n" + chalk.red.underline("ERROR: You did not provide an artist!\n"));
-        log("Usage: node liri.js concert-this <artist-name>\n");
-        return;
-    } else {
-        var artist = input.trim();
-    };
-
-    var queryUrl = "https://rest.bandsintown.com/artists/" + artist.replace(/ /g, "+") + "/events?app_id=" + keys.bandsintown;
-    request(queryUrl, function (error, response, body) {
-        if (error) return console.log(error);
-        if (!error && response.statusCode === 200) {
-            if (body.length < 20) {
-                return log(chalk.red.underline("\nNo results found...\n"));
-            };
-            var data = JSON.parse(body);
-            for (var i = 0; i < 3; i++) {
-                log(chalk.red.bold("#" + (i + 1)));
-                log(chalk.green.bold("Venue:     ") + data[i].venue.name);
-                log(chalk.green.bold("Location:  ") + data[i].venue.city + ", " + data[i].venue.country);
-                log(chalk.green.bold("Date:      ") + moment(data[i].datetime, 'YYYY-MM-DD').format('MM/DD/YYYY') + "\n");
-                var logData =
-                    `Artist: ${artist}\n` +
-                    `Venue: ${data[i].venue.name}\n` +
-                    `Location: ${data[i].venue.city}, ${data[i].venue.country}\n` +
-                    "Date: " + moment(data[i].datetime, 'YYYY-MM-DD').format('MM/DD/YYYY') + "\n";
-                logFile(logData);
-                logFile("---------------\n");
-            };
-        };
-    });
-};
-
-function movieThis() {
-    if (!input) {
-        log(chalk.red.underline("\nNo movie specified. Defaulting to 'Mr. Nobody'"))
-        var movie = "mr+nobody";
-    } else {
-        var movie = input.trim().replace(/ /g, "+");
-    };
-
-    var queryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=" + keys.omdb;
-    request(queryUrl, function (error, response, body) {
-        if (error) return console.log(error);
-        if (!error && response.statusCode === 200) {
-            var data = JSON.parse(body);
-            if (data.Response == "False") return log(chalk.red.underline("\nMovie not found...\n"));
-            var actors = data.Actors;
-            var actorsArr = actors.split(',');
-            if (data.Ratings == []) {
-                var rottenTomatoes = "N/A"
-            } else {
-                if (data.Ratings.find(rating => rating.Source === "Rotten Tomatoes")) {
-                    var rottenTomatoes = data.Ratings.find(rating => rating.Source === "Rotten Tomatoes").Value;
-                } else {
-                    var rottenTomatoes = "N/A";
-                }
-            };
-            log('');
-            log(chalk.blue.bold("Title:                  ") + data.Title);
-            log(chalk.blue.bold("Year:                   ") + data.Year);
-            log(chalk.blue.bold("IMDB rating:            ") + data.imdbRating);
-            log(chalk.blue.bold("Rotten Tomatoes rating: ") + rottenTomatoes);
-            log(chalk.blue.bold("Produced in:            ") + data.Country);
-            log(chalk.blue.bold("Language:               ") + data.Language);
-            log(chalk.blue.bold("Plot: \n") + data.Plot);
-            log(chalk.blue.bold("Actors:"));
-            for (var j = 0; j < actorsArr.length; j++) {
-                log('- ' + actorsArr[j].trim());
-            };
-            log('');
-
-            var logData =
-                `Title: ${data.Title}\n` +
-                `Year: ${data.Year}\n` +
-                `IMDB rating: ${data.imdbRating}\n` +
-                `Rotten Tomatoes rating: ${rottenTomatoes}\n` +
-                `Produced in: ${data.Country}\n` +
-                `Language: ${data.Language}\n` +
-                `Plot: ${data.Plot}\n` +
-                `Actors: ${actors}\n`;
-            logFile(logData);
-            logFile("---------------\n");
-        };
-    });
-};
-
+}

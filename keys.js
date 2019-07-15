@@ -1,4 +1,4 @@
-console.log('keys.js is loaded.');
+//console.log('keys.js is loaded.');
 
 var spotify = {
     id: process.env.Spotify_Client_ID,
