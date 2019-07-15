@@ -12,18 +12,17 @@ var moment = require('moment');
 var gDebug = true; // this serves as a master switch, try it out
 var LogOut = [];
 
-function log(msg, dest) {
+function log(msg, dest) { // handles logging to screen and file. 
     if ((dest & LOG_WRITE) === LOG_WRITE) {
         LogOut.push(msg);
         // store the message in a list to write to file later
     }
 
     if ((dest & LOG_DEBUG) === LOG_DEBUG) {
-        if ( ! gDebug) {
+        if (!gDebug) {
             return false;// stop now, this is a debug message and we are not debugging.
         }
     }
-
     console.log(msg);
 }
 
@@ -38,28 +37,32 @@ function processCmd() {
         searchStr += (" " + process.argv[i]);
     };
     if (cleanCmd(APIchoice)) {
-        //log(APIchoice.cmd);
-        switch (APIchoice.cmd) {
-            case "test":
-                doInquirer();
-                break;
-            case "spot":
-                searchSpotify(searchStr);
-                break;
-            case "BIT":
-                searchBIT(searchStr);
-                break;
-            case "OMDB":
-                searchOMDB(searchStr);
-                break;
-            case "special":
-                searchUsingRandomTxt();
-                break;
-            default:
-                log("unrecognized command - value: '" + APIchoice + "'");
-                break;
-        };
+        processBoth(APIchoice.cmd, searchStr);
     }
+}
+
+function processBoth(cmd, searchStr) {
+    //log(APIchoice.cmd);
+    switch (cmd) {
+        case "test":
+            doInquirer();
+            break;
+        case "spot":
+            searchSpotify(searchStr);
+            break;
+        case "BIT":
+            searchBIT(searchStr);
+            break;
+        case "OMDB":
+            searchOMDB(searchStr);
+            break;
+        case "special":
+            searchUsingRandomTxt();
+            break;
+        default:
+            log("unrecognized command - value: '" + cmd + "'");
+            break;
+    };
 }
 
 function cleanCmd(APIchoice) {// This attempts to take a string of almost anything and turn it into an ordinal item.
@@ -147,7 +150,7 @@ function cleanCmd(APIchoice) {// This attempts to take a string of almost anythi
                 APIchoice.cmd = "OMDB";
             }
             if (isSpecial) {
-                log("will process random.txt file", LOG_DEBUGv);
+                log("will process random.txt file", LOG_DEBUG);
                 APIchoice.cmd = 'special';
             }
             return true;
@@ -276,7 +279,7 @@ function searchOMDB(searchStr) {
     //   * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 
-
+    searchStr = searchStr.replace(/ /g, "+");
 
     log("searching OMDB using search term: '" + searchStr + "'");
     // Run the axios.get function...
@@ -286,7 +289,38 @@ function searchOMDB(searchStr) {
         .then(function (response) {
             // If the axios was successful...
             // Then log the body from the site!
-            log(response.data);
+
+            log("results from API: " + JSON.parse(response));
+            log("response.title " + response.title);
+
+            // for (var i = 0; i < 3; i++) {
+            //     var data = response.data[i];
+            //     log("#" + (i + 1));
+            //     var actors = data.Actors;
+            //     var actorsArr = actors.split(',');
+            //     if (data.Ratings == []) {
+            //       var rottenTomatoes = "N/A"
+            //     } else {
+            //       if (data.Ratings.find(rating => rating.Source === "Rotten Tomatoes")) {
+            //         var rottenTomatoes = data.Ratings.find(rating => rating.Source === "Rotten Tomatoes").Value;
+            //       } else {
+            //         var rottenTomatoes = "N/A";
+            //       }
+            //     };
+            //     log('');
+            //     log("Title:                  " + data.Title)
+            //     log("Year:                   " + data.Year);
+            //     log("IMDB rating:            " + data.imdbRating);
+            //     log("Rotten Tomatoes rating: " + rottenTomatoes);
+            //     log("Produced in:            " + data.Country);
+            //     log("Language:               " + data.Language);
+            //     log("Plot: \n" + data.Plot);
+            //     log("Actors:");
+            //     for (var j = 0; j < actorsArr.length; j++) {
+            //       log('- ' + actorsArr[j].trim());
+            //     };
+            //     log('');
+            //           };
         })
         .catch(function (error) {
             if (error.response) {
@@ -308,11 +342,15 @@ function searchOMDB(searchStr) {
 }
 
 function searchSpecial() {
-
     // * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-
     // * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
-
     // * Edit the text in random.txt to test out the feature for movie-this and concert-this.
-
+    fs.readFile('random.txt', 'utf8', function (err, data) {
+        if (err) return log(err);
+        var arr = data.split(',');
+        var cmd = arr[0];
+        var searchStr = arr[1];
+        log("reading 'random.txt' file, cmd: " + cmd + " search string: " + searchStr, LOG_DEBUG, LOG_WRITE);
+        processBoth(cmd, searchStr);
+    }
 }
