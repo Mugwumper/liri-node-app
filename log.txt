@@ -1,0 +1,165 @@
+
+
+
+
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+
+
+
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+item 01:
+	Artist(s):	Van Halen
+	Song Name:	Jump - 2015 Remaster
+	Album Name:	1984 (Remastered)
+	Preview Link:	https://p.scdn.co/mp3-preview/f6e554cadfb84a511acbbd8661741b805ecca193?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 11:
+	Artist(s):	House Of Pain
+	Song Name:	Jump Around
+	Album Name:	House of Pain (Fine Malt Lyrics)
+	Preview Link:	https://p.scdn.co/mp3-preview/8c0563c907c9415db2c1f73220340325d27dd84d?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 21:
+	Artist(s):	Julia Michaels
+	Song Name:	Jump (with Trippie Redd)
+	Album Name:	Jump (with Trippie Redd)
+	Preview Link:	null
+item 31:
+	Artist(s):	Big Sean
+	Song Name:	Jump Out The Window
+	Album Name:	I Decided.
+	Preview Link:	null
+item 41:
+	Artist(s):	Mena Massoud
+	Song Name:	One Jump Ahead
+	Album Name:	Aladdin (Original Motion Picture Soundtrack)
+	Preview Link:	null
+
+
+searching Spotify using search term: 'jump' showing first 5 results
+
+item 01:
+	Artist(s):	Van Halen
+	Song Name:	Jump - 2015 Remaster
+	Album Name:	1984 (Remastered)
+	Preview Link:	https://p.scdn.co/mp3-preview/f6e554cadfb84a511acbbd8661741b805ecca193?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 11:
+	Artist(s):	House Of Pain
+	Song Name:	Jump Around
+	Album Name:	House of Pain (Fine Malt Lyrics)
+	Preview Link:	https://p.scdn.co/mp3-preview/8c0563c907c9415db2c1f73220340325d27dd84d?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 21:
+	Artist(s):	Julia Michaels
+	Song Name:	Jump (with Trippie Redd)
+	Album Name:	Jump (with Trippie Redd)
+	Preview Link:	null
+item 31:
+	Artist(s):	Big Sean
+	Song Name:	Jump Out The Window
+	Album Name:	I Decided.
+	Preview Link:	null
+item 41:
+	Artist(s):	Mena Massoud
+	Song Name:	One Jump Ahead
+	Album Name:	Aladdin (Original Motion Picture Soundtrack)
+	Preview Link:	null
+
+
+searching Spotify using search term: 'jump' showing first 5 results
+
+item 1:
+	Artist(s):	Van Halen
+	Song Name:	Jump - 2015 Remaster
+	Album Name:	1984 (Remastered)
+	Preview Link:	https://p.scdn.co/mp3-preview/f6e554cadfb84a511acbbd8661741b805ecca193?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	House Of Pain
+	Song Name:	Jump Around
+	Album Name:	House of Pain (Fine Malt Lyrics)
+	Preview Link:	https://p.scdn.co/mp3-preview/8c0563c907c9415db2c1f73220340325d27dd84d?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Julia Michaels
+	Song Name:	Jump (with Trippie Redd)
+	Album Name:	Jump (with Trippie Redd)
+	Preview Link:	null
+item 4:
+	Artist(s):	Big Sean
+	Song Name:	Jump Out The Window
+	Album Name:	I Decided.
+	Preview Link:	null
+item 5:
+	Artist(s):	Mena Massoud
+	Song Name:	One Jump Ahead
+	Album Name:	Aladdin (Original Motion Picture Soundtrack)
+	Preview Link:	null
+
+
+searching Spotify using search term: 'home by the sea' showing first 5 results
+
+item 1:
+	Artist(s):	Genesis
+	Song Name:	Home by the Sea - 2007 Remaster
+	Album Name:	Genesis
+	Preview Link:	https://p.scdn.co/mp3-preview/68521aab1fc1fd736c97403bd58119ff8d447b75?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Dirty Heads
+	Song Name:	Cabin By The Sea - Live
+	Album Name:	Home | Phantoms of Summer: The Acoustic Sessions
+	Preview Link:	https://p.scdn.co/mp3-preview/5ee0e9e900eb49f8d95d649b3dad192ec9908a4f?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Genesis
+	Song Name:	Second Home by the Sea - 2007 Remaster
+	Album Name:	Genesis
+	Preview Link:	https://p.scdn.co/mp3-preview/729e5ad2e9cbdc9353bdb6ec98d17066365b578a?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Genesis
+	Song Name:	That's All (45 Version)
+	Album Name:	That's All / Second Home By The Sea [Digital 45]
+	Preview Link:	https://p.scdn.co/mp3-preview/9a8953e7b7b6f5636c6785574d44ee003513bf24?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Genesis
+	Song Name:	Home by the Sea - Platinum Collection Version
+	Album Name:	Platinum Collection
+	Preview Link:	https://p.scdn.co/mp3-preview/f04e4bfd1d79f615831fb70e33862fd7d336e856?cid=664f2184d3864e18bdf11fd4b8c5882b
