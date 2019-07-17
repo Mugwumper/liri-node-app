@@ -9,7 +9,8 @@ var Spotify = require("node-spotify-api");
 var axios = require("axios");
 var moment = require('moment');
 
-var gDebug = true; // this serves as a master switch, try it out
+
+var gDebug = false; // this serves as a master switch, try it out
 var logOut = [];  
 
 function log(msg, dest) { // handles logging to screen and file. 
@@ -95,7 +96,7 @@ function cleanCmd(APIchoice) {// This attempts to take a string of almost anythi
         return checkforItemInList(list);
     }
     function checkforSpecial() {
-        var list = ['do-what-it-says'];
+        var list = ['do-what-it-says', 'special', 'read', 'file'];
         return checkforItemInList(list);
     }
     function checkforItemInList(list) {
@@ -198,64 +199,25 @@ function searchSpotify(searchStr) {
 //npm i -g inspect-process
 
 function searchBIT(searchStr) {
-
-
-        var queryUrl = "https://rest.bandsintown.com/artists/" + searchStr + "/events?app_id=codingbootcamp";
-        axios.get(queryUrl).then(
-            function(response) {
-                if(response.data[0].venue !=  undefined) {
-                    console.log("Event Veunue: " + response.data[0].venue.name);
-                    console.log("Event Location: " + response.data[0].venue.city);
-                    var eventDateTime = moment(response.data[0].datetime);
-                    console.log("Event Date & Time: " + eventDateTime.format("dddd, MMMM Do YYYY"));
-                }
-                else {
-                    console.log("No results found.");
-                }
-            }
-        ).catch(function (error) {
-            console.log (error);
-      });
-
-
-
-
-
-
     // * Name of the venue
     // * Venue location
     // * Date of the Event (use moment to format this as "MM/DD/YYYY")
     log("\r\n\r\nSearching Bands In Town using search term: '" + searchStr + "' showing first 3 results\r\n", LOG_WRITE);
     searchStr = searchStr.replace(/ /g, "+");
-    var queryUrl = "https://rest.bandsintown.com/artists/" + searchStr + "/events?app_id=" +  + keys.bandsintown;
+    var queryUrl = "https://rest.bandsintown.com/artists/" + searchStr + "/events?app_id=" + keys.bandsintown;
     axios
         .get(queryUrl).then(
             function (response) {
                 log("axios get was successful...", LOG_DEBUG);
-
-                console.log("response" + response);
-
-                // if(response.data[0].venue !=  undefined) {
-                //     console.log("Event Veunue: " + response.data[0].venue.name);
-                //     console.log("Event Location: " + response.data[0].venue.city);
-                //     var eventDateTime = moment(response.data[0].datetime);
-                //     console.log("Event Date & Time: " + eventDateTime.format("dddd, MMMM Do YYYY"));
-                // }
-                // else {
-                //     console.log("No results found.");
-                // }
-
-                // // Then log the body from the site!
-                // for (var i = 0; i < 3; i++) {
-                //     log("item " + (i+1) + ":", LOG_WRITE);
-                //     var data = response.data[i];
-                //     console.log(JSON.stringify(response));
-                //     log("\tVenue:\t" + data.venue.name, LOG_WRITE);
-                //     log("\tLocation:\t" + data.venue.city + ", " + data.venue.country, LOG_WRITE);
-                //     var offer = data.offers[0];
-                //     log("\tDate:\t" + moment(data.datetime, 'YYYY-MM-DD').format('MM/DD/YYYY') + " (" + offer.type + " " + offer.status + ")", LOG_WRITE);
-                //     saveLog();
-                // };
+                // Then log the body from the site!
+                for (var i = 0; i < 3; i++) {
+                    log("item " + (i+1) + ":", LOG_WRITE);
+                    log("\tVenue:\t\t" + response.data[i].venue.name, LOG_WRITE);
+                    log("\tLocation:\t" + response.data[i].venue.city + ", " + response.data[i].venue.country, LOG_WRITE);
+                    var offer = response.data[i].offers[0];
+                    log("\tDate:\t\t" + moment(response.data[i].datetime, 'YYYY-MM-DD').format('MM/DD/YYYY') + " (" + offer.type + " " + offer.status + ")", LOG_WRITE);
+                    saveLog();
+                };
             })
         .catch(function (error) {
             if (error.response) {
@@ -290,12 +252,14 @@ function searchOMDB(searchStr) {
     //       * Actors in the movie.
     //     ```
 
+    log("\r\n\r\nSearching OMDb using search term: '" + searchStr + "' showing first result\r\n", LOG_WRITE);
     //   * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
     if (searchStr === '') searchStr = 'Mr. Nobody';
     searchStr = searchStr.replace(/ /g, "+");
-    log("searching OMDB using search term: '" + searchStr + "'");
+    //log("searching OMDB using search term: '" + searchStr + "'");
+    var queryUrl = "http://www.omdbapi.com/?t=" + searchStr + "&y=&plot=short&apikey=" + keys.omdb;
     axios
-        .get("http://www.omdbapi.com/?t=" + searchStr + "&y=&plot=short&apikey=" + keys.omdb)
+       .get(queryUrl)
         .then(function (response) {
             //log(response);
             log("", LOG_WRITE);

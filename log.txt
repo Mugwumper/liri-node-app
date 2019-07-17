@@ -1,165 +1,411 @@
 
 
-
-
-
-Movie Title: 		Star Wars: Episode IV - A New Hope
-Year of Release: 	1977
-IMDB Rating: 		8.6
-Rotten Tomatoes Rating: 93%
-Country Produced: 	USA
-Language: 		English
-Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
-Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
-
-
-
-
-
-Movie Title: 		Star Wars: Episode IV - A New Hope
-Year of Release: 	1977
-IMDB Rating: 		8.6
-Rotten Tomatoes Rating: 93%
-Country Produced: 	USA
-Language: 		English
-Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
-Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
-
-Movie Title: 		Star Wars: Episode IV - A New Hope
-Year of Release: 	1977
-IMDB Rating: 		8.6
-Rotten Tomatoes Rating: 93%
-Country Produced: 	USA
-Language: 		English
-Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
-Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
-
-Movie Title: 		Star Wars: Episode IV - A New Hope
-Year of Release: 	1977
-IMDB Rating: 		8.6
-Rotten Tomatoes Rating: 93%
-Country Produced: 	USA
-Language: 		English
-Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
-Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
-
-Movie Title: 		Star Wars: Episode IV - A New Hope
-Year of Release: 	1977
-IMDB Rating: 		8.6
-Rotten Tomatoes Rating: 93%
-Country Produced: 	USA
-Language: 		English
-Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
-Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
-item 01:
-	Artist(s):	Van Halen
-	Song Name:	Jump - 2015 Remaster
-	Album Name:	1984 (Remastered)
-	Preview Link:	https://p.scdn.co/mp3-preview/f6e554cadfb84a511acbbd8661741b805ecca193?cid=664f2184d3864e18bdf11fd4b8c5882b
-item 11:
-	Artist(s):	House Of Pain
-	Song Name:	Jump Around
-	Album Name:	House of Pain (Fine Malt Lyrics)
-	Preview Link:	https://p.scdn.co/mp3-preview/8c0563c907c9415db2c1f73220340325d27dd84d?cid=664f2184d3864e18bdf11fd4b8c5882b
-item 21:
-	Artist(s):	Julia Michaels
-	Song Name:	Jump (with Trippie Redd)
-	Album Name:	Jump (with Trippie Redd)
-	Preview Link:	null
-item 31:
-	Artist(s):	Big Sean
-	Song Name:	Jump Out The Window
-	Album Name:	I Decided.
-	Preview Link:	null
-item 41:
-	Artist(s):	Mena Massoud
-	Song Name:	One Jump Ahead
-	Album Name:	Aladdin (Original Motion Picture Soundtrack)
-	Preview Link:	null
-
-
-searching Spotify using search term: 'jump' showing first 5 results
-
-item 01:
-	Artist(s):	Van Halen
-	Song Name:	Jump - 2015 Remaster
-	Album Name:	1984 (Remastered)
-	Preview Link:	https://p.scdn.co/mp3-preview/f6e554cadfb84a511acbbd8661741b805ecca193?cid=664f2184d3864e18bdf11fd4b8c5882b
-item 11:
-	Artist(s):	House Of Pain
-	Song Name:	Jump Around
-	Album Name:	House of Pain (Fine Malt Lyrics)
-	Preview Link:	https://p.scdn.co/mp3-preview/8c0563c907c9415db2c1f73220340325d27dd84d?cid=664f2184d3864e18bdf11fd4b8c5882b
-item 21:
-	Artist(s):	Julia Michaels
-	Song Name:	Jump (with Trippie Redd)
-	Album Name:	Jump (with Trippie Redd)
-	Preview Link:	null
-item 31:
-	Artist(s):	Big Sean
-	Song Name:	Jump Out The Window
-	Album Name:	I Decided.
-	Preview Link:	null
-item 41:
-	Artist(s):	Mena Massoud
-	Song Name:	One Jump Ahead
-	Album Name:	Aladdin (Original Motion Picture Soundtrack)
-	Preview Link:	null
-
-
-searching Spotify using search term: 'jump' showing first 5 results
+searching Spotify using search term: 'the way we were' showing first 5 results
 
 item 1:
-	Artist(s):	Van Halen
-	Song Name:	Jump - 2015 Remaster
-	Album Name:	1984 (Remastered)
-	Preview Link:	https://p.scdn.co/mp3-preview/f6e554cadfb84a511acbbd8661741b805ecca193?cid=664f2184d3864e18bdf11fd4b8c5882b
+	Artist(s):	Barbra Streisand
+	Song Name:	The Way We Were
+	Album Name:	The Way We Were
+	Preview Link:	https://p.scdn.co/mp3-preview/1d3d0d1a48dc81cf9dfd15f649d79041ff0b69d3?cid=664f2184d3864e18bdf11fd4b8c5882b
 item 2:
-	Artist(s):	House Of Pain
-	Song Name:	Jump Around
-	Album Name:	House of Pain (Fine Malt Lyrics)
-	Preview Link:	https://p.scdn.co/mp3-preview/8c0563c907c9415db2c1f73220340325d27dd84d?cid=664f2184d3864e18bdf11fd4b8c5882b
+	Artist(s):	Barbra Streisand
+	Song Name:	The Way We Were
+	Album Name:	The Essential Barbra Streisand
+	Preview Link:	https://p.scdn.co/mp3-preview/5b3a13a79ff7625ddbff663350b214342b11010e?cid=664f2184d3864e18bdf11fd4b8c5882b
 item 3:
-	Artist(s):	Julia Michaels
-	Song Name:	Jump (with Trippie Redd)
-	Album Name:	Jump (with Trippie Redd)
-	Preview Link:	null
+	Artist(s):	Barbra Streisand
+	Song Name:	The Way We Were - Soundtrack Version
+	Album Name:	THE WAY WE WERE: Original Soundtrack Recording *
+	Preview Link:	https://p.scdn.co/mp3-preview/25e923638c041d423c2bc707f8b4673ee9727df7?cid=664f2184d3864e18bdf11fd4b8c5882b
 item 4:
-	Artist(s):	Big Sean
-	Song Name:	Jump Out The Window
-	Album Name:	I Decided.
-	Preview Link:	null
+	Artist(s):	Emarosa
+	Song Name:	Broken VS the way we were born
+	Album Name:	Emarosa
+	Preview Link:	https://p.scdn.co/mp3-preview/cf9c0942909751408699afc3b97d20878d01ac4c?cid=664f2184d3864e18bdf11fd4b8c5882b
 item 5:
-	Artist(s):	Mena Massoud
-	Song Name:	One Jump Ahead
-	Album Name:	Aladdin (Original Motion Picture Soundtrack)
-	Preview Link:	null
+	Artist(s):	Kenny G
+	Song Name:	The Way We Were
+	Album Name:	I'm In The Mood For Love ... The Most Romantic Melodies Of All Time
+	Preview Link:	https://p.scdn.co/mp3-preview/f829487f2473c71363a83e1df9ce57bae89ecd9f?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
 
 
-searching Spotify using search term: 'home by the sea' showing first 5 results
+Searching OMDb using search term: 'star wars' showing first result
+
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+
+Searching Bands In Town using search term: 'journey' showing first 3 results
 
 item 1:
-	Artist(s):	Genesis
-	Song Name:	Home by the Sea - 2007 Remaster
-	Album Name:	Genesis
-	Preview Link:	https://p.scdn.co/mp3-preview/68521aab1fc1fd736c97403bd58119ff8d447b75?cid=664f2184d3864e18bdf11fd4b8c5882b
+	Venue:		The Lucille - Rocks Off Concert Cruise
+	Location:	New York, United States
+	Date:		08/24/2019 (Tickets available)
 item 2:
-	Artist(s):	Dirty Heads
-	Song Name:	Cabin By The Sea - Live
-	Album Name:	Home | Phantoms of Summer: The Acoustic Sessions
-	Preview Link:	https://p.scdn.co/mp3-preview/5ee0e9e900eb49f8d95d649b3dad192ec9908a4f?cid=664f2184d3864e18bdf11fd4b8c5882b
+	Venue:		Hard Rock Live at Etess Arena
+	Location:	Atlantic City, United States
+	Date:		09/27/2019 (Tickets available)
 item 3:
-	Artist(s):	Genesis
-	Song Name:	Second Home by the Sea - 2007 Remaster
-	Album Name:	Genesis
-	Preview Link:	https://p.scdn.co/mp3-preview/729e5ad2e9cbdc9353bdb6ec98d17066365b578a?cid=664f2184d3864e18bdf11fd4b8c5882b
+	Venue:		Hard Rock Live at Etess Arena
+	Location:	Atlantic City, United States
+	Date:		09/28/2019 (Tickets available)
+
+
+Searching Bands In Town using search term: 'styx' showing first 3 results
+
+item 1:
+	Venue:		The Pacific Amphitheatre
+	Location:	Costa Mesa, United States
+	Date:		07/24/2019 (Tickets available)
+item 2:
+	Venue:		Tucson Music Hall
+	Location:	Tucson, United States
+	Date:		07/25/2019 (Tickets available)
+item 3:
+	Venue:		Palomar Starlight Theater - Pala Casino
+	Location:	Pala, United States
+	Date:		07/26/2019 (Tickets available)
+
+
+searching Spotify using search term: 'the way we were' showing first 5 results
+
+item 1:
+	Artist(s):	Barbra Streisand
+	Song Name:	The Way We Were
+	Album Name:	The Way We Were
+	Preview Link:	https://p.scdn.co/mp3-preview/1d3d0d1a48dc81cf9dfd15f649d79041ff0b69d3?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Barbra Streisand
+	Song Name:	The Way We Were
+	Album Name:	The Essential Barbra Streisand
+	Preview Link:	https://p.scdn.co/mp3-preview/5b3a13a79ff7625ddbff663350b214342b11010e?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Barbra Streisand
+	Song Name:	The Way We Were - Soundtrack Version
+	Album Name:	THE WAY WE WERE: Original Soundtrack Recording *
+	Preview Link:	https://p.scdn.co/mp3-preview/25e923638c041d423c2bc707f8b4673ee9727df7?cid=664f2184d3864e18bdf11fd4b8c5882b
 item 4:
-	Artist(s):	Genesis
-	Song Name:	That's All (45 Version)
-	Album Name:	That's All / Second Home By The Sea [Digital 45]
-	Preview Link:	https://p.scdn.co/mp3-preview/9a8953e7b7b6f5636c6785574d44ee003513bf24?cid=664f2184d3864e18bdf11fd4b8c5882b
+	Artist(s):	Emarosa
+	Song Name:	Broken VS the way we were born
+	Album Name:	Emarosa
+	Preview Link:	https://p.scdn.co/mp3-preview/cf9c0942909751408699afc3b97d20878d01ac4c?cid=664f2184d3864e18bdf11fd4b8c5882b
 item 5:
-	Artist(s):	Genesis
-	Song Name:	Home by the Sea - Platinum Collection Version
-	Album Name:	Platinum Collection
-	Preview Link:	https://p.scdn.co/mp3-preview/f04e4bfd1d79f615831fb70e33862fd7d336e856?cid=664f2184d3864e18bdf11fd4b8c5882b
+	Artist(s):	Kenny G
+	Song Name:	The Way We Were
+	Album Name:	I'm In The Mood For Love ... The Most Romantic Melodies Of All Time
+	Preview Link:	https://p.scdn.co/mp3-preview/f829487f2473c71363a83e1df9ce57bae89ecd9f?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+Searching Bands In Town using search term: 'deep purple' showing first 3 results
+
+item 1:
+	Venue:		Fox Performing Arts Center
+	Location:	Riverside, United States
+	Date:		09/03/2019 (Tickets available)
+item 2:
+	Venue:		The Wiltern
+	Location:	Los Angeles, United States
+	Date:		09/04/2019 (Tickets available)
+item 3:
+	Venue:		Pechanga Entertainment Center
+	Location:	Temecula, United States
+	Date:		09/06/2019 (Tickets available)
+
+
+Searching Bands In Town using search term: 'deep purple' showing first 3 results
+
+item 1:
+	Venue:		Fox Performing Arts Center
+	Location:	Riverside, United States
+	Date:		09/03/2019 (Tickets available)
+item 2:
+	Venue:		The Wiltern
+	Location:	Los Angeles, United States
+	Date:		09/04/2019 (Tickets available)
+item 3:
+	Venue:		Pechanga Entertainment Center
+	Location:	Temecula, United States
+	Date:		09/06/2019 (Tickets available)
+
+
+Searching OMDb using search term: 'star wars' showing first result
+
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+
+searching Spotify using search term: 'the way we were' showing first 5 results
+
+item 1:
+	Artist(s):	Barbra Streisand
+	Song Name:	The Way We Were
+	Album Name:	The Way We Were
+	Preview Link:	https://p.scdn.co/mp3-preview/1d3d0d1a48dc81cf9dfd15f649d79041ff0b69d3?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Barbra Streisand
+	Song Name:	The Way We Were
+	Album Name:	The Essential Barbra Streisand
+	Preview Link:	https://p.scdn.co/mp3-preview/5b3a13a79ff7625ddbff663350b214342b11010e?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Barbra Streisand
+	Song Name:	The Way We Were - Soundtrack Version
+	Album Name:	THE WAY WE WERE: Original Soundtrack Recording *
+	Preview Link:	https://p.scdn.co/mp3-preview/25e923638c041d423c2bc707f8b4673ee9727df7?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Emarosa
+	Song Name:	Broken VS the way we were born
+	Album Name:	Emarosa
+	Preview Link:	https://p.scdn.co/mp3-preview/cf9c0942909751408699afc3b97d20878d01ac4c?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Kenny G
+	Song Name:	The Way We Were
+	Album Name:	I'm In The Mood For Love ... The Most Romantic Melodies Of All Time
+	Preview Link:	https://p.scdn.co/mp3-preview/f829487f2473c71363a83e1df9ce57bae89ecd9f?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+searching Spotify using search term: '"I Want it That Way"' showing first 5 results
+
+
+
+Searching OMDb using search term: ' "star wars"' showing first result
+
+
+Movie Title: 		Rogue One: A Star Wars Story
+Year of Release: 	2016
+IMDB Rating: 		7.8
+Rotten Tomatoes Rating: 84%
+Country Produced: 	USA
+Language: 		English
+Plot: 			The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.
+Actors: 		Felicity Jones, Diego Luna, Alan Tudyk, Donnie Yen
+item 1:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	The Hits--Chapter One
+	Preview Link:	https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	Millennium
+	Preview Link:	https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Anthem Lights
+	Song Name:	I Want It That Way
+	Album Name:	Covers Part IV
+	Preview Link:	https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Mick Jensen
+	Song Name:	I Want It That Way
+	Album Name:	I Want It That Way
+	Preview Link:	https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way - Reimagined
+	Album Name:	I Want It That Way (Reimagined)
+	Preview Link:	https://p.scdn.co/mp3-preview/7f612d6ba66571500e981e74bb36e14b9906be77?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+searching Spotify using search term: '"I Want it That Way"' showing first 5 results
+
+
+
+Searching OMDb using search term: ' "star wars"' showing first result
+
+
+Movie Title: 		Rogue One: A Star Wars Story
+Year of Release: 	2016
+IMDB Rating: 		7.8
+Rotten Tomatoes Rating: 84%
+Country Produced: 	USA
+Language: 		English
+Plot: 			The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.
+Actors: 		Felicity Jones, Diego Luna, Alan Tudyk, Donnie Yen
+item 1:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	The Hits--Chapter One
+	Preview Link:	https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	Millennium
+	Preview Link:	https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Anthem Lights
+	Song Name:	I Want It That Way
+	Album Name:	Covers Part IV
+	Preview Link:	https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Mick Jensen
+	Song Name:	I Want It That Way
+	Album Name:	I Want It That Way
+	Preview Link:	https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way - Reimagined
+	Album Name:	I Want It That Way (Reimagined)
+	Preview Link:	https://p.scdn.co/mp3-preview/7f612d6ba66571500e981e74bb36e14b9906be77?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+Searching Bands In Town using search term: 'moody blues' showing first 3 results
+
+item 1:
+	Venue:		Mountain Winery
+	Location:	Saratoga, United States
+	Date:		07/28/2019 (Tickets available)
+item 2:
+	Venue:		Altigone
+	Location:	Saint Orens De Gameville, France
+	Date:		12/20/2019 (Tickets available)
+
+
+Searching OMDb using search term: 'the green mile' showing first result
+
+
+Movie Title: 		The Green Mile
+Year of Release: 	1999
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 79%
+Country Produced: 	USA
+Language: 		English, French
+Plot: 			The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.
+Actors: 		Tom Hanks, David Morse, Bonnie Hunt, Michael Clarke Duncan
+
+
+searching Spotify using search term: 'no quarter' showing first 5 results
+
+item 1:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - 2007 Remaster
+	Album Name:	Mothership (Remastered)
+	Preview Link:	https://p.scdn.co/mp3-preview/d781b2bc6678b058d8517dffe5e155439df07037?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - 1990 Remaster
+	Album Name:	Houses Of The Holy
+	Preview Link:	https://p.scdn.co/mp3-preview/6ed64a85da976d65c33059c74afcb168a8a1d246?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - 2012 Remaster
+	Album Name:	Houses of the Holy (2014 Remaster)
+	Preview Link:	https://p.scdn.co/mp3-preview/370037406fd0839c9865454bb807897c29c57ba5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - Remastered
+	Album Name:	Houses Of The Holy (Deluxe Edition)
+	Preview Link:	https://p.scdn.co/mp3-preview/370037406fd0839c9865454bb807897c29c57ba5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - Live at MSG 1973; 2018 Remaster
+	Album Name:	The Song Remains The Same (2018 Remaster)
+	Preview Link:	https://p.scdn.co/mp3-preview/c8f72fbbcf714937e5398e4767062c8dbfb0e628?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+searching Spotify using search term: 'no quarter' showing first 5 results
+
+item 1:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - 2007 Remaster
+	Album Name:	Mothership (Remastered)
+	Preview Link:	https://p.scdn.co/mp3-preview/d781b2bc6678b058d8517dffe5e155439df07037?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - 1990 Remaster
+	Album Name:	Houses Of The Holy
+	Preview Link:	https://p.scdn.co/mp3-preview/6ed64a85da976d65c33059c74afcb168a8a1d246?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - 2012 Remaster
+	Album Name:	Houses of the Holy (2014 Remaster)
+	Preview Link:	https://p.scdn.co/mp3-preview/370037406fd0839c9865454bb807897c29c57ba5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - Remastered
+	Album Name:	Houses Of The Holy (Deluxe Edition)
+	Preview Link:	https://p.scdn.co/mp3-preview/370037406fd0839c9865454bb807897c29c57ba5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - Live at MSG 1973; 2018 Remaster
+	Album Name:	The Song Remains The Same (2018 Remaster)
+	Preview Link:	https://p.scdn.co/mp3-preview/c8f72fbbcf714937e5398e4767062c8dbfb0e628?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+searching Spotify using search term: 'no quarter' showing first 5 results
+
+item 1:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - 2007 Remaster
+	Album Name:	Mothership (Remastered)
+	Preview Link:	https://p.scdn.co/mp3-preview/d781b2bc6678b058d8517dffe5e155439df07037?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - 1990 Remaster
+	Album Name:	Houses Of The Holy
+	Preview Link:	https://p.scdn.co/mp3-preview/6ed64a85da976d65c33059c74afcb168a8a1d246?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - 2012 Remaster
+	Album Name:	Houses of the Holy (2014 Remaster)
+	Preview Link:	https://p.scdn.co/mp3-preview/370037406fd0839c9865454bb807897c29c57ba5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - Remastered
+	Album Name:	Houses Of The Holy (Deluxe Edition)
+	Preview Link:	https://p.scdn.co/mp3-preview/370037406fd0839c9865454bb807897c29c57ba5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Led Zeppelin
+	Song Name:	No Quarter - Live at MSG 1973; 2018 Remaster
+	Album Name:	The Song Remains The Same (2018 Remaster)
+	Preview Link:	https://p.scdn.co/mp3-preview/c8f72fbbcf714937e5398e4767062c8dbfb0e628?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+searching Spotify using search term: '"I Want it That Way"' showing first 5 results
+
+item 1:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	The Hits--Chapter One
+	Preview Link:	https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	Millennium
+	Preview Link:	https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Anthem Lights
+	Song Name:	I Want It That Way
+	Album Name:	Covers Part IV
+	Preview Link:	https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Mick Jensen
+	Song Name:	I Want It That Way
+	Album Name:	I Want It That Way
+	Preview Link:	https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way - Reimagined
+	Album Name:	I Want It That Way (Reimagined)
+	Preview Link:	https://p.scdn.co/mp3-preview/7f612d6ba66571500e981e74bb36e14b9906be77?cid=664f2184d3864e18bdf11fd4b8c5882b
