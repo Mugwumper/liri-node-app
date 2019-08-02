@@ -409,3 +409,264 @@ item 5:
 	Song Name:	I Want It That Way - Reimagined
 	Album Name:	I Want It That Way (Reimagined)
 	Preview Link:	https://p.scdn.co/mp3-preview/7f612d6ba66571500e981e74bb36e14b9906be77?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+searching Spotify using search term: 'The Boxer' showing first 5 results
+
+item 1:
+	Artist(s):	Simon & Garfunkel
+	Song Name:	The Boxer
+	Album Name:	Bridge Over Troubled Water
+	Preview Link:	https://p.scdn.co/mp3-preview/ba833158dd80b316a9a108b1578fe1113b931132?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Jerry Douglas
+	Song Name:	The Boxer feat. Mumford & Sons and Paul Simon
+	Album Name:	Traveler
+	Preview Link:	https://p.scdn.co/mp3-preview/542054c78ec1a7334e413c440af70fa1f96a688e?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	The National
+	Song Name:	Fake Empire
+	Album Name:	Boxer
+	Preview Link:	https://p.scdn.co/mp3-preview/20573e4e2f625f4328e821a49c25940506360c34?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	The National
+	Song Name:	Slow Show
+	Album Name:	Boxer
+	Preview Link:	https://p.scdn.co/mp3-preview/bd2a9041149fcc3438347ef9c44ea6f138959c59?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Jerry Douglas
+	Song Name:	The Boxer
+	Album Name:	Babel (Deluxe Version)
+	Preview Link:	https://p.scdn.co/mp3-preview/e2f2660ba2c375188a8275d493214c6c8f57462e?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+Searching Bands In Town using search term: 'journey' showing first 3 results
+
+item 1:
+	Venue:		The Lucille - Rocks Off Concert Cruise
+	Location:	New York, United States
+	Date:		08/24/2019 (Tickets available)
+item 2:
+	Venue:		Hard Rock Live at Etess Arena
+	Location:	Atlantic City, United States
+	Date:		09/27/2019 (Tickets available)
+item 3:
+	Venue:		Hard Rock Live at Etess Arena
+	Location:	Atlantic City, United States
+	Date:		09/28/2019 (Tickets available)
+
+
+Searching OMDb using search term: 'star wars' showing first result
+
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+
+searching Spotify using search term: '"I Want it That Way"' showing first 5 results
+
+item 1:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	The Hits--Chapter One
+	Preview Link:	https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	Millennium
+	Preview Link:	https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Mick Jensen
+	Song Name:	I Want It That Way
+	Album Name:	I Want It That Way
+	Preview Link:	https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Anthem Lights
+	Song Name:	I Want It That Way
+	Album Name:	Covers Part IV
+	Preview Link:	https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way - Reimagined
+	Album Name:	I Want It That Way (Reimagined)
+	Preview Link:	https://p.scdn.co/mp3-preview/7f612d6ba66571500e981e74bb36e14b9906be77?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+searching Spotify using search term: 'The Boxer' showing first 5 results
+
+item 1:
+	Artist(s):	Simon & Garfunkel
+	Song Name:	The Boxer
+	Album Name:	Bridge Over Troubled Water
+	Preview Link:	https://p.scdn.co/mp3-preview/ba833158dd80b316a9a108b1578fe1113b931132?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Jerry Douglas
+	Song Name:	The Boxer feat. Mumford & Sons and Paul Simon
+	Album Name:	Traveler
+	Preview Link:	https://p.scdn.co/mp3-preview/542054c78ec1a7334e413c440af70fa1f96a688e?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	The National
+	Song Name:	Fake Empire
+	Album Name:	Boxer
+	Preview Link:	https://p.scdn.co/mp3-preview/20573e4e2f625f4328e821a49c25940506360c34?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	The National
+	Song Name:	Slow Show
+	Album Name:	Boxer
+	Preview Link:	https://p.scdn.co/mp3-preview/bd2a9041149fcc3438347ef9c44ea6f138959c59?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Jerry Douglas
+	Song Name:	The Boxer
+	Album Name:	Babel (Deluxe Version)
+	Preview Link:	https://p.scdn.co/mp3-preview/e2f2660ba2c375188a8275d493214c6c8f57462e?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+Searching Bands In Town using search term: 'journey' showing first 3 results
+
+item 1:
+	Venue:		The Lucille - Rocks Off Concert Cruise
+	Location:	New York, United States
+	Date:		08/24/2019 (Tickets available)
+item 3:
+	Venue:		Hard Rock Live at Etess Arena
+	Location:	Atlantic City, United States
+	Date:		09/28/2019 (Tickets available)
+item 2:
+	Venue:		Hard Rock Live at Etess Arena
+	Location:	Atlantic City, United States
+	Date:		09/27/2019 (Tickets available)
+
+
+Searching OMDb using search term: 'star wars' showing first result
+
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+
+searching Spotify using search term: '"I Want it That Way"' showing first 5 results
+
+item 1:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	The Hits--Chapter One
+	Preview Link:	https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	Millennium
+	Preview Link:	https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Mick Jensen
+	Song Name:	I Want It That Way
+	Album Name:	I Want It That Way
+	Preview Link:	https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Anthem Lights
+	Song Name:	I Want It That Way
+	Album Name:	Covers Part IV
+	Preview Link:	https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way - Reimagined
+	Album Name:	I Want It That Way (Reimagined)
+	Preview Link:	https://p.scdn.co/mp3-preview/7f612d6ba66571500e981e74bb36e14b9906be77?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+searching Spotify using search term: 'The Boxer' showing first 5 results
+
+item 1:
+	Artist(s):	Simon & Garfunkel
+	Song Name:	The Boxer
+	Album Name:	Bridge Over Troubled Water
+	Preview Link:	https://p.scdn.co/mp3-preview/ba833158dd80b316a9a108b1578fe1113b931132?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Jerry Douglas
+	Song Name:	The Boxer feat. Mumford & Sons and Paul Simon
+	Album Name:	Traveler
+	Preview Link:	https://p.scdn.co/mp3-preview/542054c78ec1a7334e413c440af70fa1f96a688e?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	The National
+	Song Name:	Fake Empire
+	Album Name:	Boxer
+	Preview Link:	https://p.scdn.co/mp3-preview/20573e4e2f625f4328e821a49c25940506360c34?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	The National
+	Song Name:	Slow Show
+	Album Name:	Boxer
+	Preview Link:	https://p.scdn.co/mp3-preview/bd2a9041149fcc3438347ef9c44ea6f138959c59?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Jerry Douglas
+	Song Name:	The Boxer
+	Album Name:	Babel (Deluxe Version)
+	Preview Link:	https://p.scdn.co/mp3-preview/e2f2660ba2c375188a8275d493214c6c8f57462e?cid=664f2184d3864e18bdf11fd4b8c5882b
+
+
+Searching OMDb using search term: 'star wars' showing first result
+
+
+Movie Title: 		Star Wars: Episode IV - A New Hope
+Year of Release: 	1977
+IMDB Rating: 		8.6
+Rotten Tomatoes Rating: 93%
+Country Produced: 	USA
+Language: 		English
+Plot: 			Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+Actors: 		Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+
+
+Searching Bands In Town using search term: 'journey' showing first 3 results
+
+item 1:
+	Venue:		The Lucille - Rocks Off Concert Cruise
+	Location:	New York, United States
+	Date:		08/24/2019 (Tickets available)
+item 2:
+	Venue:		Hard Rock Live at Etess Arena
+	Location:	Atlantic City, United States
+	Date:		09/27/2019 (Tickets available)
+item 3:
+	Venue:		Hard Rock Live at Etess Arena
+	Location:	Atlantic City, United States
+	Date:		09/28/2019 (Tickets available)
+
+
+searching Spotify using search term: '"I Want it That Way"' showing first 5 results
+
+item 1:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	The Hits--Chapter One
+	Preview Link:	https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 2:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way
+	Album Name:	Millennium
+	Preview Link:	https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 3:
+	Artist(s):	Mick Jensen
+	Song Name:	I Want It That Way
+	Album Name:	I Want It That Way
+	Preview Link:	https://p.scdn.co/mp3-preview/f8181f66713983fab073e133e23c741acbe00d75?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 4:
+	Artist(s):	Anthem Lights
+	Song Name:	I Want It That Way
+	Album Name:	Covers Part IV
+	Preview Link:	https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=664f2184d3864e18bdf11fd4b8c5882b
+item 5:
+	Artist(s):	Backstreet Boys
+	Song Name:	I Want It That Way - Reimagined
+	Album Name:	I Want It That Way (Reimagined)
+	Preview Link:	https://p.scdn.co/mp3-preview/7f612d6ba66571500e981e74bb36e14b9906be77?cid=664f2184d3864e18bdf11fd4b8c5882b
